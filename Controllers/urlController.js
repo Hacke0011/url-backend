@@ -155,7 +155,7 @@ export const redirectUrl = async (req, res) => {
                     <script>
                         setTimeout(function() {
                             window.location.href = "${url.originalUrl}";
-                        }, 1000);
+                        }, 500);
                     </script>
                 </body>
                 </html>
